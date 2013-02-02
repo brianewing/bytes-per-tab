@@ -1,12 +1,12 @@
 {
-  "name": "Process Monitor",
-  "version": "1.1",
-  "description": "Adds a browser action that monitors resource usage of all browser processes.",
+  "name": "Bytes per Tab",
+  "version": "1.0",
+  "description": "Shows each tab's network usage (if any) in their title bar",
   "permissions": [
     "experimental", "tabs", "<all_urls>"
   ],
   "background": {
-    "scripts": ["popup.js"]
+    "scripts": ["bytes.js"]
   },
   "manifest_version": 2
 }

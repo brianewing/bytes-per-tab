@@ -1,8 +1,6 @@
-// Copyright (c) 2012 The Chromium Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
+// (c) 2013 Brian J Ewing
+// MIT
 
-// Shows an updating list of process statistics.
 function init() {
   chrome.experimental.processes.onUpdated.addListener(function(processes) {
     // alert('aye');
